@@ -17,7 +17,7 @@ def index():
             align-items: center;
             gap: 1.2rem;
         ">
-            <h1>Welcome to Flask Home.</h1>
+            <h1 style="user-select: none;">Welcome to Flask Home.</h1>
 
             <div style="
                 display: flex;
@@ -33,8 +33,12 @@ def index():
                        background: #f7f7f7;
                        width: 150px;
                        text-align: center;
+                       pointer-events: none;
+                       user-select: none;
                    ">
-                    hello-json
+                    <span>Hello-Json</span>
+                    <br>
+                    <span>（無効）</span>
                 </a>
 
                 <a href="/time-json" target="_blank"
@@ -46,8 +50,12 @@ def index():
                        background: #f7f7f7;
                        width: 150px;
                        text-align: center;
+                       pointer-events: none;
+                       user-select: none;
                    ">
-                    time-json
+                    <span>Time-Json</span>
+                    <br>
+                    <span>（無効）</span>
                 </a>
             </div>
         </div>
