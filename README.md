@@ -1,3 +1,3 @@
 # flask-simple-api
 
-- comming soon ...
+- Phase01ではapiディレクトリはignoreする。
